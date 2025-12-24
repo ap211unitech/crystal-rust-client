@@ -1,0 +1,8 @@
+[package]
+name = "app"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rust_client = { path = "../rust-client" }
+tokio = { version = "1.48.0", features = ["full"] }
